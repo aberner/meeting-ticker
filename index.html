@@ -25,7 +25,7 @@
 <div id="form">
   <form class="setup" accept-charset="utf-8">
   	<dl>
-  	  <dt><label for="attendees">Number of Attendees:</label></dt>
+  	  <dt><label for="attendees">Antall deltagere:</label></dt>
   	  <dd>
     		<input id="attendees"
     		   class="watermark"
@@ -35,25 +35,22 @@
   	  </dd>
 	  
   	  <dt>
-  	    <label for="hourly_rate">Average Hourly Rate:</label>
+  	    <label for="hourly_rate">Timepris:</label>
   	    <p class="small">
   	      Be sure to include overhead costs like facilities and benefits.
   	    </p>
 	    </dt>
   	  <dd>
   	    <select name="units" tabindex="3">
-  	      <option selected="selected">$</option>
-  	      <option>&pound;</option>
-  	      <option>&euro;</option>
-  	      <option>&yen;</option>
+  	      <option selected="selected">KR</option>
   	    </select>
     		<input id="hourly_rate"
     		   class="watermark" type="text"
     		   tabindex="2"
-    		   name="hourly_rate" value="" title="guess (200?)" />
+    		   name="hourly_rate" value="" title="gjett (900?)" />
   	  </dd>
 	  
-  	  <dt><label for="start_time">The Meeting started at:</label></dt>
+  	  <dt><label for="start_time">M&oslash;te startet kl.:</label></dt>
   	  <dd>
     		<input id="start_time" type="text" name="start_time" value="" tabindex="4"/>
   	  </dd>
@@ -69,10 +66,10 @@
 </div>
   
 <div id="display">
-	<h1>This Meeting Has Cost</h1>
+	<h1>Dette m&oslash;te har  s&aring; langt kostet:</h1>
 	<div class="odometer"></div>
 	<p id="started_at" class="small"></p>
-	<form class="stop"><input type="submit" value="stop the bleeding"></form>
+	<form class="stop"><input type="submit" value="Stopp m&oslash;te n&aring;"></form>
 </div>
 </body>
 </html>

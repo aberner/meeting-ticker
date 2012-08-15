@@ -95,9 +95,9 @@ $.widget( "ui.odometer", {
 $.extend( $.ui.odometer, {
   defaults: {
     interval:      100,
-    columns:        10,
-    prefix:        "$",
-    initialValue:  0.00
+    columns:        9,
+    prefix:        "KR",
+    initialValue:  0
   },
   getter: ""
 });
